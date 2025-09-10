@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+  <header class="top-header">
+    <h2>Modern Registration Form</h2>
+  </header>
+
+     <section class="form-container">
+       <header class="header">
+         <h2>Student Registration Form</h2>
+       </header>
+       <form>
+         
+         <div class="row">
+           <div class="first-name">
+             <label>First Name</label>
+             <input type="text" placeholder="Enter first name" required />
+           </div>
+           <div class="last-name">
+             <label>Last Name</label>
+             <input type="text" placeholder="Enter last name"  required/>
+           </div>
+         </div>
+   
+         <div class="row">
+           <div>
+             <label>Date of Birth</label>
+             <div class="dob">
+               <select id="day" name="day" required>
+                 <option>Day</option>
+                <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+                  <option>11</option>
+                  <option>12</option>
+                  <option>13</option>
+                  <option>14</option>
+                  <option>15</option>
+                  <option>16</option>
+                  <option>17</option>
+                  <option>18</option>
+                  <option>19</option>
+                  <option>20</option>
+                  <option>21</option>
+                  <option>22</option>
+                  <option>23</option>
+                  <option>24</option>
+                  <option>25</option>
+                  <option>26</option>
+                  <option>27</option>
+                  <option>28</option>
+                  <option>29</option>
+                  <option>30</option>
+                  <option>31</option>
+                 
+               </select>
+               <select id="month">
+                <option>Month</option>
+                <option>January</option>
+                <option>February</option>
+                <option>March</option>
+                <option>April</option>
+                <option>May</option>
+                <option>June</option>
+                <option>July</option>
+                <option>August</option>
+                <option>September</option>
+                <option>October</option>
+                <option>November</option>
+                <option>December</option>
+               </select>
+               <select id="year">
+                 <option>Year</option>
+                 <option>2025</option>
+                <option>2024</option>
+                <option>2023</option>
+                <option>2022</option>
+                <option>2021</option>
+                <option>2020</option>
+                <option>2019</option>
+                <option>2018</option>
+                <option>2017</option>
+                <option>2016</option>
+                <option>2015</option>
+                <option>2014</option>
+                <option>2013</option>
+                <option>2012</option>
+                <option>2011</option>
+                <option>2010</option>
+                <option>2009</option>
+                <option>2008</option>
+                <option>2007</option>
+                <option>2006</option>
+                <option>2005</option>
+                <option>2004</option>
+                <option>2003</option>
+                <option>2002</option>
+                <option>2001</option>
+                <option>2000</option>
+                <option>1999</option>
+                <option>1998</option>
+                <option>1997</option>
+                <option>1996</option>
+                <option>1995</option>
+               </select>
+             </div>
+           </div>
+         </div>
+   
+         <div class="row">
+           <div>
+             <label>Email ID</label>
+             <input type="email" placeholder="Enter email address"  required/>
+           </div>
+           <div>
+             <label>Mobile Number</label>
+             <input type="tel" placeholder="Enter 10-digit mobile number" />
+           </div>
+         </div>
+   
+         <div class="row" >
+           <label>Gender</label>
+         </div>
+         <div class="gender-options"  >
+           <label><input type="radio" name="gender" required/> Female </label>
+           <label><input type="radio" name="gender" required/> Male</label>
+         </div>
+      
+         <br>
+         <div>
+           <label>Address</label>
+           <textarea placeholder="Enter your full address"></textarea>
+         </div>
+         
+        <br>
+         <div class="row">
+           <div>
+             <label>City</label>
+             <input type="text" placeholder="Enter city" />
+           </div>
+           <div>
+             <label>PIN Code</label>
+             <input type="text" placeholder="Enter 6-digit PIN code" />
+           </div>
+           <div>
+             <label>State</label>
+             <input type="text" placeholder="Enter state" />
+           </div>
+         </div>
+   
+          <br>
+         <div>
+           <label>Country</label>
+           <select>
+             <option>Select country</option>
+             <option>India</option>
+            <option>United States</option>
+            <option>United Kingdom</option>
+            <option>Canada</option>
+            <option>Australia</option>
+            <option>Germany</option>
+            <option>France</option>
+            <option>China</option>
+            <option>Japan</option>
+            <option>Brazil</option>
+           </select>
+         </div>
+   
+         <br />
+         <div class="row">
+           <label>Hobbies</label>
+         </div>
+         <div class="row hobbies-options">
+           <label><input type="checkbox" name="hobby" /> Drawing</label>
+           <label><input type="checkbox" name="hobby" /> Singing</label>
+           <label><input type="checkbox" name="hobby" /> Dancing</label>
+         </div>
+         <div class="row hobbies-options">
+           <label><input type="checkbox" name="hobby" /> Sketching</label>
+           <label><input type="checkbox" name="hobby" /> Others</label>
+         </div>
+   
+          <br>
+         <div>
+           <label>Qualification</label>
+           <table class="qualification-table no-border">
+             <thead>
+               <tr>
+                 <th>Sr. No.</th>
+                 <th>Examination</th>
+                 <th>Board</th>
+                 <th>Percentage</th>
+                 <th>Year of Passing</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td>1</td>
+                 <td>Class X</td>
+                 <td><input type="text" /></td>
+                 <td><input type="text" /></td>
+                 <td><input type="text" /></td>
+               </tr>
+               <tr>
+                 <td>2</td>
+                 <td>Class XII</td>
+                 <td><input type="text" /></td>
+                 <td><input type="text" /></td>
+                 <td><input type="text" /></td>
+               </tr>
+               <tr>
+                 <td>3</td>
+                 <td>Graduation</td>
+                 <td><input type="text" /></td>
+                 <td><input type="text" /></td>
+                 <td><input type="text" /></td>
+               </tr>
+               <tr>
+                 <td>4</td>
+                 <td>Masters</td>
+                 <td><input type="text" /></td>
+                 <td><input type="text" /></td>
+                 <td><input type="text" /></td>
+               </tr>
+             </tbody>
+           </table>
+         </div>
+   
+         <br />
+         <div class="row">
+           <label>Courses Applied For</label>
+         </div>
+         <div class="row course-options">
+           <label><input type="radio" name="course" /> BCA</label>
+           <label><input type="radio" name="course" /> B.Com</label>
+           <label><input type="radio" name="course" /> B.Sc</label>
+           <label><input type="radio" name="course" /> B.A</label>
+         </div>
+   
+         <div class="btns">
+           <button type="reset" class="reset">Reset</button>
+           <button type="submit" class="submit">Submit</button>
+         </div>
+       </form>
+
+      </div>
+    
+  <div class="footer">
+    <h2>Professional Registration Form</h2>
+  </div>
+
+</body>
+</html>
